@@ -1,0 +1,8 @@
+// https://github.com/Socketlike/SpotifyModal
+
+#spotify-modal > .header > .cover-art,
+#spotify-modal > .dock > .seek-bar,
+#spotify-modal > .dock > .seek-bar > .inner
+#spotify-modal > .dock > .controls > svg {
+    border-radius: 0;
+}
