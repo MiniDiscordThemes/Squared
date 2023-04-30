@@ -1,0 +1,24 @@
+$r: (
+    ".radioIconForeground-2BMavi",  // Radio options
+    ".bar-FCMoKY",                  // Sticker slot boost tier
+);
+
+$rx: (
+    ".slider-HJFN2i rect",          // Toggle slider
+    ".bd-switch-handle",            // BD toggle slider
+    ".container-yn4cwV rect",       // Stage moderator badge
+    ".noItemsIcon-1rZlXZ rect",     // Subscriptions no items icon
+    ".noItemsIcon-2OeOld rect",     // Subscriptions no items icon
+);
+
+@each $selector in $r {
+    #{$selector} {
+        r: 0;
+    }
+}
+
+@each $selector in $rx {
+    #{$selector} {
+        rx: 0;
+    }
+}

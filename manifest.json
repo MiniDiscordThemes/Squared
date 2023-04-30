@@ -1,0 +1,18 @@
+{
+    "id": "net.saltssaumure.Squared",
+    "name": "Squared",
+    "description": "A border-radius removing Discord theme.",
+    "author": {
+        "name": "Saltssaumure",
+        "discordID": "134142022092062720",
+        "github": "Saltssaumure"
+    },
+    "version": "1.2.1",
+    "updater": {
+        "type": "github",
+        "id": "MiniDiscordThemes/Squared"
+    },
+    "license": "MIT",
+    "type": "replugged-theme",
+    "main": "scss/sq.scss"
+}
