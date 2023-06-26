@@ -18,14 +18,15 @@
 [issues]:           https://github.com/MiniDiscordThemes/Squared/issues
 [.theme.css]:       https://github.com/MiniDiscordThemes/Squared/blob/main/Squared.theme.css
 
-[release-gh]:       https://github.com/MiniDiscordThemes/Squared/releases/latest "Latest release"
+[release-gh]:       https://github.com/MiniDiscordThemes/Squared/releases/latest "Latest GitHub release"
 [release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
-[release-rp]:       https://replugged.dev/install?identifier=MiniDiscordThemes/Squared&source=github "Replugged addon installer"
+[release-rp-store]: https://replugged.dev/install?identifier=MiniDiscordThemes/Squared&source=github "Replugged store installer"
+[release-rp-gh]:    https://replugged.dev/install?identifier=net.saltssaumure.Squared "Replugged GitHub installer"
 
 # Squared Discord Theme
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
 [![BetterDiscord GitHub downloads][shield-total-dl]][release-gh]
-[![Replugged downloads][shield-asar-dl]][release-rp]
+[![Replugged downloads][shield-asar-dl]][release-rp-store]
 ![Total size][shield-repo-size]
 
 ***A `border-radius` removing Discord theme.***
@@ -36,9 +37,8 @@
 
 ### BetterDiscord
 1. Install [BetterDiscord][BetterDiscord].
-2. Download the theme file:
+2. Download the `Squared.theme.css` file:
     - [GitHub][release-gh]
-    - [BD Store][release-bd]
 3. Place theme file in the `themes` folder:
     - Windows: `%AppData%/BetterDiscord/themes`
     - Mac: `~/Library/Application Support/betterdiscord/themes`
@@ -47,8 +47,9 @@
 ### Replugged
 1. Install [Replugged][Replugged].
 2. Install the theme:
-    - [GitHub][release-gh]
-    - [Installer][release-rp]
+    - [Replugged store][release-rp-store]
+    - [GitHub (auto)][release-rp-gh]
+    - [GitHub (manual)][release-gh]
 
 ### Vencord
 1. Install [Vencord][Vencord].
