@@ -7,12 +7,16 @@
         "discordID": "134142022092062720",
         "github": "Saltssaumure"
     },
-    "version": "1.2.5",
+    "version": "1.2.7",
     "updater": {
         "type": "store",
         "id": "net.saltssaumure.Squared"
     },
     "license": "MIT",
     "type": "replugged-theme",
-    "main": "scss/sq.scss"
+    "main": "scss/sq.scss",
+    "image": [
+        "https://cdn.discordapp.com/attachments/946226984005025835/1129622992649986048/squared1.png",
+        "https://cdn.discordapp.com/attachments/946226984005025835/1129622992922624121/squared2.png"
+    ]
 }
