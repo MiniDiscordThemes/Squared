@@ -8,6 +8,6 @@ export default {
         /** The name of your theme repository. */
         repo: "Squared",
         /** The version of your theme. */
-        version: "1.2.5"
+        version: "1.2.7"
     }
 };
