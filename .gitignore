@@ -3,5 +3,3 @@ node_modules
 .parcel-cache
 bundle
 dist
-
-*.min.css
