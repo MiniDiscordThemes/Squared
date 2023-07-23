@@ -1,6 +1,6 @@
 {
     "name": "squared-discord-theme",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "description": "A border-radius removing Discord theme.",
     "repository": "https://github.com/MiniDiscordThemes/Squared.git",
     "author": "Saltssaumure <saltssaumure@gmail.com>",
@@ -9,8 +9,9 @@
     "scripts": {
         "dev": "bd-scss dev",
         "bd": "bd-scss build",
-        "plug": "replugged build theme",
-        "bundle": "replugged bundle theme"
+        "rp": "replugged bundle theme",
+        "lint": "prettier ./scss --check",
+        "lint:fix": "prettier ./scss --write"
     },
     "type": "module",
     "dependencies": {
@@ -19,7 +20,9 @@
         "@parcel/transformer-sass": "^2.8.3",
         "@types/node": "^18.15.3",
         "prettier": "^2.8.4",
-        "replugged": "^4.3.1",
         "salt-bd-scss": "^1.0.0"
+    },
+    "devDependencies": {
+        "replugged": "^4.3.1"
     }
 }

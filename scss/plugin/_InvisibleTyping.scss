@@ -1,5 +1,5 @@
 // https://betterdiscord.app/plugin/InvisibleTyping
-// https://github.com/Strencher/BetterDiscordStuff/blob/998b86692a5220bcefe0737b5d954788ca34bb99/InvisibleTyping/InvisibleTyping.plugin.js
+// https://github.com/Strencher/BetterDiscordStuff/blob/master/InvisibleTyping/InvisibleTyping.plugin.js
 
 .it-switch-item,
 .it-switch-dot {
@@ -7,5 +7,7 @@
 }
 
 .channelTextArea-1FufC0 path[d^="M528 448"] {
-    d: path("M 576 448 h -576 v -384 h 576 z M 128 192 v -64 h -64 v 64 z M 224 192 v -64 h -64 v 64 z M 320 192 v -64 h -64 v 64 z M 416 192 v -64 h -64 v 64 z M 512 192 v -64 h -64 v 64 z M 176 288 v -64 h -64 v 64 z M 272 288 v -64 h -64 v 64 z M 368 288 v -64 h -64 v 64 z M 464 288 v -64 h -64 v 64 z M 128 384 v -64 h -64 v 64 z M 416 384 v -64 h -256 v 64 z M 512 384 v -64 h -64 v 64 z");
+    d: path(
+        "M 576 448 h -576 v -384 h 576 z M 128 192 v -64 h -64 v 64 z M 224 192 v -64 h -64 v 64 z M 320 192 v -64 h -64 v 64 z M 416 192 v -64 h -64 v 64 z M 512 192 v -64 h -64 v 64 z M 176 288 v -64 h -64 v 64 z M 272 288 v -64 h -64 v 64 z M 368 288 v -64 h -64 v 64 z M 464 288 v -64 h -64 v 64 z M 128 384 v -64 h -64 v 64 z M 416 384 v -64 h -256 v 64 z M 512 384 v -64 h -64 v 64 z"
+    );
 }

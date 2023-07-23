@@ -1,4 +1,5 @@
-// ChannelTabs plugin
+// https://betterdiscord.app/plugin/ChannelTabs
+// https://github.com/samfundev/BetterDiscordStuff/blob/master/Plugins/ChannelTabs/ChannelTabs.plugin.js
 
 .channelTabs-favContainer .channelTabs-fav {
     border-radius: 0;
@@ -17,13 +18,12 @@
         }
     }
 
-    :is(.channelTabs-newTab, .channelTabs-closeTab, .channelTabs-tabNav>div) {
+    :is(.channelTabs-newTab, .channelTabs-closeTab, .channelTabs-tabNav > div) {
         border-radius: 0;
     }
 }
 
-:is(.channelTabs-tabContainer .channelTabs-tabIconWrapper,
-    .channelTabs-favContainer .channelTabs-favIconWrapper) {
+:is(.channelTabs-tabContainer .channelTabs-tabIconWrapper, .channelTabs-favContainer .channelTabs-favIconWrapper) {
     img[src*="com/avatars/"] {
         clip-path: inset(2px);
     }
