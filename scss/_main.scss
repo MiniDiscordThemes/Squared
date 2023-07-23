@@ -33,8 +33,11 @@
 .attachment-16cAbS,
 .attachment-1PZZB2,
 .attachment-1PZZB2.newMosaicStyle-35X6XO,
+.audienceIconContainer-1xndyK,
 .audioControls-3fmemK,
 .auditLog-1NVAY0,
+.auto-1QyTTa::-webkit-scrollbar-thumb,
+.auto-1QyTTa::-webkit-scrollbar-track,
 .autocomplete-3jLKbj,
 .autocompleteQuerySymbol-1iAOG7,
 .availabilityIndicator-3-1ZYA,
@@ -169,6 +172,8 @@
 .colorPickerSwatch-RTUGRR.custom-1Up2lr,
 .colorPickerSwatch-RTUGRR.default-3ISV7m,
 .communityInfoPill-2Mll66,
+.compactButton-3hG-bs,
+.compactButtonDisabled-MwB2d6,
 .connectContainer-1hylYM,
 .connectedAccountContainer-3aLMHJ,
 .connectedAccountVanityMetadataTag-19Al5z,
@@ -425,6 +430,7 @@
 .input-3O04eu,
 .input-3r5zZY,
 .inset-SbsSFp,
+.installSize-3az1nt,
 .integration-1qC-fv,
 .intentsContainer-FHJBSg,
 .invite-3uuHYQ,
@@ -567,6 +573,7 @@
 .popoutRoleDot-2_Nt5g,
 .premiumDropBadge-2K24uy,
 .premiumEmojisRow-1oWaTN,
+.premiumTrialBadge-pEqntF,
 .preview-x-26h-,
 .previewContainer-1GxmBJ,
 .previewContainer-1xQAsw,
@@ -668,6 +675,7 @@
 .select-Zz0IcO,
 .selectableItem-3-fmiM,
 .selected-11Gl-y,
+.selected-5uRER3,
 .selectionCircle-3s5Uex,
 .sessionIcon-2fwSzb,
 .settingCard-xZSDjS,
@@ -699,6 +707,7 @@
 .spoilerText-2G40u0,
 .spoilerWarning-1JN1Ot,
 .spoilerWarning-8ovW0v,
+.stageListenerPill-1_QAPA,
 .staticToolbar-x12NJC,
 .status-15kcmy,
 .status-1ZXjSF,
@@ -958,11 +967,11 @@ foreignObject[mask*="url(#"] {
     --rs-phone-visible: none; // Visibility of the phone icon next to a users avatar. | block = visible | none = hidden
 
     // Discord
-    --radius-xs: 4px;
-    --radius-sm: 8px;
-    --radius-md: 12px;
-    --radius-lg: 16px;
-    --radius-xl: 24px;
-    --radius-xxl: 32px;
-    --radius-round: 2147483647px;
+    --radius-xs: 0;
+    --radius-sm: 0;
+    --radius-md: 0;
+    --radius-lg: 0;
+    --radius-xl: 0;
+    --radius-xxl: 0;
+    --radius-round: 0;
 }

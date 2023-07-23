@@ -1,8 +1,10 @@
-body #app-mount .guilds-2JjMmN {
+// https://betterdiscord.app/theme/Horizontal%20Server%20List
+// https://github.com/DiscordStyles/HorizontalServerList
 
-    [class*=expandedFolderBackground],
-    .frame-oXWS21[class*=listItem] .button-Jt-tIg,
-    [class*=pill] span {
+body #app-mount .guilds-2JjMmN {
+    [class*="expandedFolderBackground"],
+    .frame-oXWS21[class*="listItem"] .button-Jt-tIg,
+    [class*="pill"] span {
         border-radius: 0;
     }
 }
