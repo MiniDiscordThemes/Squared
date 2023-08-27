@@ -1,23 +1,23 @@
 {
-    "id": "net.saltssaumure.Squared",
-    "name": "Squared",
-    "description": "A round corner removing theme.",
-    "author": {
-        "name": "Saltssaumure",
-        "discordID": "134142022092062720",
-        "github": "Saltssaumure"
-    },
-    "version": "1.2.8",
-    "updater": {
-        "type": "store",
-        "id": "net.saltssaumure.Squared"
-    },
-    "license": "MIT",
-    "type": "replugged-theme",
-    "main": "scss/sq.scss",
-    "image": [
-        "https://cdn.discordapp.com/attachments/946226984005025835/1129622992649986048/squared1.png",
-        "https://cdn.discordapp.com/attachments/946226984005025835/1129622992922624121/squared2.png"
-    ],
-    "source": "https://github.com/MiniDiscordThemes/Squared"
+  "id": "net.saltssaumure.Squared",
+  "name": "Squared",
+  "description": "Squares all circles in Discord.",
+  "author": {
+    "name": "Saltssaumure",
+    "discordID": "134142022092062720",
+    "github": "Saltssaumure"
+  },
+  "version": "1.3.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.Squared"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/sq.scss",
+  "source": "https://github.com/MiniDiscordThemes/Squared",
+  "image": [
+    "https://cdn.discordapp.com/attachments/946226984005025835/1129622992649986048/squared1.png",
+    "https://cdn.discordapp.com/attachments/946226984005025835/1129622992922624121/squared2.png"
+  ]
 }

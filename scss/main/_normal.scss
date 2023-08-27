@@ -43,12 +43,15 @@
 .availabilityIndicator-3-1ZYA,
 .avatar-1-pIh6,
 .avatar-2e8lTP,
+.avatar-2EVtgZ,
 .avatar-3FKimL,
+.avatar-3jcVeZ,
 .avatar-3Q7DWY,
 .avatar-3TrM7c,
 .avatar-l9Txm5,
 .avatar-rC0Atp,
 .avatarCard-1N47yx,
+.avatarContainer-3tBLDx,
 .avatarHoverTarget-1zzfRL,
 .avatarSpeaking-33RRJU,
 .avatarSpeaking-36V2PN,
@@ -164,7 +167,9 @@
 .checklistHeader-3liG7E,
 .childButton-3o_dlg,
 .circle-1ip_Nd,
+.circle-2tR2Qh,
 .clickable-WBCFI5,
+.clickableAvatar-igrb2Y,
 .clickableContainer-3YtEIY,
 .closeButton-PCZcma,
 .closeIcon-2jT3e_,
@@ -188,6 +193,7 @@
 .container-1ILvLB,
 .container-1IyjjY,
 .container-1jQZ2U,
+.container-1oeRFJ,
 .container-1QtPKm,
 .container-1SX9VC,
 .container-1wv6C6,
@@ -305,6 +311,7 @@
 .emojisContainer-2aGjbS,
 .emptyChannelIcon-1YdEz2,
 .emptyStateIcon-2xfcFG,
+.emptyUser-2FDCJv,
 .enableContainer-1J91Aq,
 .enableContainer-2MEsKV,
 .enableContainer-H2cRts,
@@ -317,6 +324,7 @@
 .exampleRule-KGGZmT,
 .executedCommandAvatar-3oOnb1,
 .expandedFolderBackground-1kSAf6,
+.expandedInfo-1W31i3,
 .fakeActivityIcon-KeXVoI,
 .fakeButton-3RWbMY,
 .fakeEdges-18N907::after,
@@ -501,6 +509,7 @@
 .metadataContainer-35U-On,
 .mini-28oMa3 .grabber-3R-Rx9,
 .mini-2qY9iv .grabber-2GQyvM,
+.moreContainer-R0kRGB,
 .moreGuildsLarge-32DxZk,
 .moreUsers-3PdGZN,
 .mostPopularPill-28w8lV,
@@ -538,12 +547,16 @@
 .overlayAvatar-1U_zp1,
 .overlayBackground-2aa7wt,
 .overlayTitle-2efoIF,
+.pageButtonNext-2_bbdk,
+.pageButtonPrev-3q9rh8,
 .partyMemberEmpty-GtlQ_s,
+.paymentPane-ut5qKZ,
 .pencilContainer-11Kuga,
 .pencilContainer-18TrEJ,
 .peopleListItem-u6dGxF:hover,
 .peopleListItem-u6dGxF.active-2UF8Zh,
 .perk-19D_HN,
+.perkPreviewImage-2jd1Tx,
 .perks-2IIbWQ,
 .permissionV3BannerContainer-3_4aSa,
 .phoneField-3NAPDv .countryButton-1cNDvB,
@@ -598,6 +611,7 @@
 .progressBarTrack-1JMWIp,
 .prompt-1sE27N,
 .prompt-R8SyL4,
+.pulsingEllipsis-S-xTiX .item-2VgEex,
 .px-MnE_OR.botTag-7aX5WZ,
 .qualitySettingsContainer-2LjkfM,
 .questionMark-3V9mGJ,
@@ -718,6 +732,7 @@
 .status-JIDx3x,
 .statusDot-1TkcEv,
 .statusDot-jqxHTQ,
+.statusTag-2MQURR,
 .stepContainer-SaPPyG,
 .stepCountIcon-1A2Rxd,
 .stepIndex-Kqaht-,
@@ -813,6 +828,9 @@
 .videoWrapper-1_H3B3,
 .voiceAvatar-lRbblo,
 .voiceChannelsButton-SRmgo8,
+.voiceSectionGuildImage-TctMOd,
+.voiceSectionIconWrapper-4yoj76,
+.voiceSectionNoGuildImageWrapper-17kLyh,
 .warningIcon-1OWXzB,
 .welcomeChannel-_Q4qAA,
 .whatsNewImage-5jpa5v,
@@ -860,122 +878,4 @@
 .ytp-tooltip-text,
 .ytp-tooltip-text-wrapper {
     border-radius: 0;
-}
-
-.liveIndicator-3bhXBF,
-.hue-2nWTuO > div > div > div > div,
-.saturation-white > div > div,
-.timestamp-modal-custom-input,
-.avatarDecorationHint-3n-p6O,
-.getXboxAppQR-16f1-s {
-    border-radius: 0 !important;
-}
-
-// Scrollbars
-.scrollerBase-1Pkza4::-webkit-scrollbar-thumb,
-.scrollerBase-1Pkza4::-webkit-scrollbar-track,
-.webkit-QgSAqd::-webkit-scrollbar-thumb {
-    border-radius: 0;
-}
-
-.activitySectionAssets-1wpe42 .largeImageMask-2KA28T,
-.assetWrapperMasked-1iw9lV,
-.assetsLargeMaskStreamPreview--ugZjW,
-.assetsLargeMaskUserPopout-3N96A8,
-.assetsLargeMaskUserPopoutV2-2oZjbP,
-.assetsLargeMaskVoiceChannel-3IlDCA,
-.inspectedIndicator-27zwNZ,
-.loadingIndicator-3fKdTZ,
-.mask-2Me5HY rect,
-foreignObject[mask*="url(#"] {
-    mask: none;
-    -webkit-mask: none;
-}
-
-.theme-dark .imageLoading-2uloYN,
-.theme-light .imageLoading-2uloYN {
-    background-image: none;
-}
-
-// Emoji picker
-.sprite-2lxwfc {
-    background-image: url("https://minidiscordthemes.github.io/Squared/img/emoji-square.png");
-}
-
-// Authorised apps permissions check
-.permissionCheckmark-ji-OoY {
-    background-image: url("data:image/svg+xml,%3Csvg height='18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3Cpath d='M 14 14 h -10 v -10 h 8 v -2 h -10 v 14 h 14 v -7.75 h -2 z m -7.5675 -6.94 l -1.0575 1.065 l 3.375 3.375 l 7.5 -7.5 l -1.0575 -1.065 l -6.4425 6.4425 z' fill='%233ba55c'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-// Privacy and safety radio inner circle
-.item-1TA5qI[tabindex="0"] > .radioBar-1XgZqD > div:first-child {
-    position: relative;
-
-    &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        background: currentColor;
-        width: 12px;
-        height: 12px;
-        left: 6px;
-        top: 6px;
-    }
-}
-
-// Appearance selected theme inner circle
-.checkmarkCircle-2LCcdI {
-    circle {
-        display: none;
-    }
-
-    .checkmark-1RtODZ {
-        d: path("M 2 2 V 22 H 22 V 2 Z M 10 17 L 5 12 L 6.41 10.59 L 10 14.17 L 17.59 6.58 L 19 8 L 10 17 Z");
-    }
-}
-
-// Subscriptions no items icon
-.noItemsIcon-1rZlXZ,
-.noItemsIcon-2OeOld {
-    circle {
-        display: none;
-    }
-}
-
-// Voice and video shortcut keybind
-.editIcon-e7sZ3b {
-    background-image: url("data:image/svg+xml,%3Csvg height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M 22 5 H 2 L 2 19 H 22 Z M 11 8 H 13 V 10 H 11 Z M 11 11 H 13 V 13 H 11 Z M 8 8 H 10 V 10 H 8 Z M 8 11 H 10 V 13 H 8 Z M 7 13 H 5 V 11 H 7 Z M 7 10 H 5 V 8 H 7 Z M 16 17 H 8 V 15 H 16 Z M 16 13 H 14 V 11 H 16 Z M 16 10 H 14 V 8 H 16 Z M 19 13 H 17 V 11 H 19 Z M 19 10 H 17 V 8 H 19 Z' fill='%23fff' fill-rule='nonzero'/%3E%3Cpath d='m0 0h24v24h-24zm0 0h24v24h-24z'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-// User profile status light theme
-.wrapper-3Un6-K circle {
-    display: none;
-}
-
-:root {
-    // RadialStatus
-    --rs-small-spacing: 0px; // Gap between avatar and status for members list/dms | MUST end in px
-    --rs-medium-spacing: 0px; // Gap between avatar and status for User popout | MUST end in px
-    --rs-large-spacing: 0px; // Gap between avatar and status for User profiles | MUST end in px
-    --rs-small-width: 2px; // Thickness of status border for members list/dms | MUST end in px
-    --rs-medium-width: 3px; // Thickness of status border for User popout | MUST end in px
-    --rs-large-width: 4px; // Thickness of status border for User profile | MUST end in px
-    --rs-avatar-shape: 0%; // 50% for round - 0% for square
-    --rs-online-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); // Colour for online status
-    --rs-idle-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%); // Colour for idle status
-    --rs-dnd-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); // Colour for dnd status
-    --rs-offline-color: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%); // Colour for offline status
-    --rs-streaming-color: hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%); // Colour for streaming status
-    --rs-invisible-color: var(--rs-offline-color); // Colour for invisible status - Note: this will only show for your own invisibility
-    --rs-phone-color: var(--rs-online-color); // Colour of the ring and phone icon when a user is on their phone |
-    --rs-phone-visible: none; // Visibility of the phone icon next to a users avatar. | block = visible | none = hidden
-
-    // Discord
-    --radius-xs: 0;
-    --radius-sm: 0;
-    --radius-md: 0;
-    --radius-lg: 0;
-    --radius-xl: 0;
-    --radius-xxl: 0;
-    --radius-round: 0;
 }
