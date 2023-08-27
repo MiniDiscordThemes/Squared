@@ -1,0 +1,59 @@
+.theme-dark .imageLoading-2uloYN,
+.theme-light .imageLoading-2uloYN {
+    background-image: none;
+}
+
+// Emoji picker
+.sprite-2lxwfc {
+    background-image: url("https://minidiscordthemes.github.io/Squared/img/emoji-square.png");
+}
+
+// Authorised apps permissions check
+.permissionCheckmark-ji-OoY {
+    background-image: url("data:image/svg+xml,%3Csvg height='18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3Cpath d='M 14 14 h -10 v -10 h 8 v -2 h -10 v 14 h 14 v -7.75 h -2 z m -7.5675 -6.94 l -1.0575 1.065 l 3.375 3.375 l 7.5 -7.5 l -1.0575 -1.065 l -6.4425 6.4425 z' fill='%233ba55c'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+// Privacy and safety radio inner circle
+.item-1TA5qI[tabindex="0"] > .radioBar-1XgZqD > div:first-child {
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        background: currentColor;
+        width: 12px;
+        height: 12px;
+        left: 6px;
+        top: 6px;
+    }
+}
+
+// Appearance selected theme inner circle
+.checkmarkCircle-2LCcdI {
+    circle {
+        display: none;
+    }
+
+    .checkmark-1RtODZ {
+        d: path("M 2 2 V 22 H 22 V 2 Z M 10 17 L 5 12 L 6.41 10.59 L 10 14.17 L 17.59 6.58 L 19 8 L 10 17 Z");
+    }
+}
+
+// Subscriptions no items icon
+.noItemsIcon-1rZlXZ,
+.noItemsIcon-2OeOld {
+    circle {
+        display: none;
+    }
+}
+
+// Voice and video shortcut keybind
+.editIcon-e7sZ3b {
+    background-image: url("data:image/svg+xml,%3Csvg height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M 22 5 H 2 L 2 19 H 22 Z M 11 8 H 13 V 10 H 11 Z M 11 11 H 13 V 13 H 11 Z M 8 8 H 10 V 10 H 8 Z M 8 11 H 10 V 13 H 8 Z M 7 13 H 5 V 11 H 7 Z M 7 10 H 5 V 8 H 7 Z M 16 17 H 8 V 15 H 16 Z M 16 13 H 14 V 11 H 16 Z M 16 10 H 14 V 8 H 16 Z M 19 13 H 17 V 11 H 19 Z M 19 10 H 17 V 8 H 19 Z' fill='%23fff' fill-rule='nonzero'/%3E%3Cpath d='m0 0h24v24h-24zm0 0h24v24h-24z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+// User profile status light theme
+.wrapper-3Un6-K circle {
+    display: none;
+}
