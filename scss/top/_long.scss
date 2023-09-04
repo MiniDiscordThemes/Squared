@@ -1,0 +1,30 @@
+@use "sass:list";
+@use "sass:string";
+
+@function _listToString($list) {
+    $str: "";
+    @each $el in $list {
+        $str: $str + $el + ",";
+    }
+    @return $str;
+}
+
+@mixin _generateBlock($selector-list) {
+    $selector-string: _listToString($selector-list);
+    #{$selector-string} {
+        border-radius: 0;
+    }
+}
+
+@mixin groupSelectors($long-selector-list, $length: 10) {
+    $group: [];
+    @each $selector in $long-selector-list {
+        @if list.length($group) < $length {
+            $group: list.append($group, $selector);
+        } @else {
+            @include _generateBlock($group);
+            $group: [];
+        }
+    }
+    @include _generateBlock($group);
+}
