@@ -67,7 +67,8 @@ $pathpairs: (
     // With threads (lower)
     // Channel
     "M3.89988 8.25994": $_empty,
-    "M19.0999 3.99994": "",
+    "M19.0999 3.99994":
+        "m 5 4 v 16 h 2 v -5 h 5 v -4 h 9 v -6 h -14 v -1 z",
     // Threads
     // "M12.48 13.92": "", // Duplicate
     // With NSFW and threads (upper and lower)
@@ -125,7 +126,8 @@ $pathpairs: (
     // Lock
     // "M21.025 5": "", // Duplicate
     // NSFW
-    // "M19.8916 3.80204": "", // Duplicate
+    "M19.8916 3.80204":
+        "M 14 2 h 8 v 8 h -8 z m 3.25 1 h 1.5 v 3.5 h -1.5 z m 0 4.5 h 1.5 v 1.5 h -1.5 z",
     //////////////////// ---- Stage channels ---- ////////////////////
     // With lock (upper)
     // Channel
