@@ -4,7 +4,10 @@
 @use "./device";
 
 @each $oldpath, $newpath in channel.$pathpairs {
-    .icon-2W8DHg path[d^="#{$oldpath}"] {
+    // Channel list
+    .icon-2W8DHg path[d^="#{$oldpath}"],
+    // Header
+    .children-3xh0VB path[d^="#{$oldpath}"] {
         d: path($newpath);
         fill-rule: evenodd;
     }

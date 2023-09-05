@@ -12,7 +12,13 @@
     }
 }
 
-@each $selector, $path in toolbar.$pathpairs {
+@each $oldpath, $newpath in toolbar.$pathpairs {
+    .toolbar-3_r2xA path[d^="#{string.slice($oldpath, 1, 20)}"] {
+        d: path($newpath);
+    }
+}
+
+@each $selector, $path in toolbar.$selectpathpairs {
     #{$selector} .icon-2xnN2Y path {
         d: path($path);
     }
