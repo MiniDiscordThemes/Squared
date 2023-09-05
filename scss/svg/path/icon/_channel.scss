@@ -1,77 +1,95 @@
+$_nsfw-text: "M 14 3 h 8 v 8 h -8 z m 3.25 1 h 1.5 v 3.5 h -1.5 z m 0 4.5 h 1.5 v 1.5 h -1.5 z";
+$_lock-text: "M 14 11 h 8 v -6 h -1 v -3 h -6 v 3 h -1 z m 2 -6 h 4 v -2 h -4 z";
+$_threads-text: "M 13 12.5 v 8 h 3 l 2 2 v 0 l 2 -2 h 2 v -8 z m 2 2 v 4 h 5 v -4 z";
+
+$_empty: "";
+$_nsfw-announce: "M 14 4 h 8 v 8 h -8 z m 3.25 1 h 1.5 v 3.5 h -1.5 z m 0 4.5 h 1.5 v 1.5 h -1.5 z";
+$_lock-announce: "M 14 12 h 8 v -6 h -1 v -3 h -6 v 3 h -1 z m 2 -6 h 4 v -2 h -4 z";
+$_threads-announce: "M 13 12.5 v 8 h 3 l 2 2 v 0 l 2 -2 h 2 v -8 z m 2 2 v 4 h 5 v -4 z";
+
 $pathpairs: (
-    // ---- Text channels ----
+    //////////////////// ---- Text channels ---- ////////////////////
     // Normal
     // Channel
-    "M5.88657 21": "",
+    "M5.88657 21":
+        "M 7 21 V 17 H 3 V 15 H 7 V 9 H 3 V 7 H 7 V 3 H 9 V 7 H 15 V 3 H 17 V 7 H 21 V 9 H 17 V 15 H 21 V 17 H 17 V 21 H 15 V 17 H 9 V 21 Z M 9 9 V 15 H 15 V 9 H 9 Z",
 
     // With lock or NSFW (upper)
     // Channel
-    "M14 8": "",
+    "M14 8":
+        "M 7 21 V 17 H 3 V 15 H 7 V 9 H 3 V 7 H 7 V 3 H 9 V 7 H 14 V 9 H 9 V 15 H 15 V 13 H 17 V 15 H 21 V 17 H 17 V 21 H 15 V 17 H 9 V 21 Z",
     // Lock
-    "M21.025 5": "",
+    "M21.025 5": $_lock-text,
     // NSFW
-    "M19.8916 3.80204": "",
+    "M19.8914 3.80204": $_nsfw-text,
 
     // With threads (lower)
     // Channel
-    "M5.43309 21": "",
+    "M5.43309 21":
+        "M 7 21 V 17 H 3 V 15 H 7 V 9 H 3 V 7 H 7 V 3 H 9 V 7 H 15 V 3 H 17 V 7 H 21 V 9 H 17 V 11 H 15 V 9 H 9 V 15 H 13 V 17 H 9 V 21 Z",
     // Threads
-    "M13.4399 12.96": "",
+    "M13.4399 12.96": $_threads-text,
 
     // With lock and threads (upper and lower)
     // Channel
-    "M15.44 6.99992": "",
+    "M15.44 6.99992":
+        "M 7 21 V 17 H 3 V 15 H 7 V 9 H 3 V 7 H 7 V 3 H 9 V 7 H 14 V 9 H 9 V 15 H 14 V 17 H 9 V 21 Z",
     // Lock
-    "M22.545 4.91992": "",
+    "M22.545 4.91992": $_lock-text,
     // Threads
-    "M13.44 12.9599": "",
+    "M13.44 12.9599": $_threads-text,
 
     // With NSFW and threads (upper and lower)
     // Channel
-    "M14.4 7": "",
+    "M14.4 7":
+        "M 6 21 V 17 H 3 V 15 H 7 V 9 H 3 V 7 H 7 V 3 H 9 V 7 H 14 V 9 H 9 V 15 H 14 V 17 H 9 V 21 Z",
     // NSFW
-    "M22.8093 8.55658": "",
+    "M22.8093 8.55658": $_nsfw-text,
     // Threads
-    "M12.48 13.92": "",
-    // ---- Announcement channels ----
+    "M12.48 13.92": $_threads-text,
+    //////////////////// ---- Announcement channels ---- ////////////////////
     // Normal
     // Channel
-    "M3.9 8.26": "",
-    "M19.1 4": "",
+    "M3.9 8.26": $_empty,
+    "M19.1 4":
+        "M 5 4 V 20 H 7 V 15 H 21 V 5 H 7 V 4 Z",
 
     // With lock or NSFW (upper)
     // Channel
-    "M3.9 8.25998": "",
-    "M4.85 8.26445": "",
+    "M3.9 8.25998": $_empty,
+    "M4.85 8.26445":
+        "M 5 4 V 20 H 7 V 15 H 21 v -1 h -9 V 5 H 7 V 4 Z",
     // Lock
-    "M22.545 4.87988": "",
+    "M22.545 4.87988": $_lock-announce,
     // NSFW
-    "M20.4683 4.76211": "",
+    "M20.4683 4.76211": $_nsfw-announce,
 
     // With threads (lower)
     // Channel
-    "M3.89988 8.25994": "",
+    "M3.89988 8.25994": $_empty,
     "M19.0999 3.99994": "",
     // Threads
     // "M12.48 13.92": "", // Duplicate
     // With NSFW and threads (upper and lower)
     // Channel
-    "M3.89988 8.2599": "",
-    "M16.6811 5.6591": "",
+    "M3.89988 8.2599": $_empty,
+    "M16.6811 5.6591":
+        "M 5 4 V 20 H 7 V 15 H 11 V 11 H 12 V 5 H 7 V 4 Z",
     // NSFW
-    "M20.4681 4.76205": "",
+    "M20.4681 4.76205": $_nsfw-announce,
     // Threads
-    "M13.44 12.96": "",
+    "M13.44 12.96": $_threads-announce,
 
     // With lock and threads (upper and lower)
     // Channel
-    "M3.9 8.25994": "",
-    "M15.84 5.84438": "",
+    "M3.9 8.25994": $_empty,
+    "M15.84 5.84438":
+        "M 5 4 V 20 H 7 V 15 H 11 V 11 H 12 V 5 H 7 V 4 Z",
     // Lock
-    "M22.545 4.88": "",
+    "M22.545 4.88": $_lock-announce,
     // Threads
     // "M13.44 12.96": "", // Duplicate
-    // ---- Forum channels ----
+    //////////////////// ---- Forum channels ---- ////////////////////
     // Normal
     // Channel
     "M6.56929 14.6869": "",
@@ -84,7 +102,7 @@ $pathpairs: (
     // NSFW
     "M22.2821 7.55654": "",
 
-    // ---- Voice channels ----
+    //////////////////// ---- Voice channels ---- ////////////////////
     // Normal
     // Channel
     "M11.383 3.07904": "",
@@ -96,7 +114,7 @@ $pathpairs: (
     // "M21.025 5": "", // Duplicate
     // NSFW
     // "M19.8916 3.80204": "", // Duplicate
-    // ---- Stage channels ----
+    //////////////////// ---- Stage channels ---- ////////////////////
     // Normal
     // Channel
     "M14 13C14 14.1 13.1 15 12 15C10.9 15 10 14.1 10 13C10 11.9 10.9 11 12 11C13.1 11 14 11.9 14 13ZM8.5 20":
@@ -112,7 +130,7 @@ $pathpairs: (
     // Lock
     "M22.025 2": "",
 
-    // ---- Special channels ----
+    //////////////////// ---- Special channels ---- ////////////////////
     // Server guide
     "M7 15H9": "",
     "M5 14": "",
