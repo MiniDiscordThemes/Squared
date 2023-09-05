@@ -1,0 +1,25 @@
+// Other paths
+
+@use "./discoverycheck";
+@use "./repath";
+@use "./unpath";
+
+@each $oldpath, $newpath in discoverycheck.$pathpairs {
+    .checklistIcon-D7psvE path[d^="#{$oldpath}"] {
+        d: path($newpath);
+        fill-rule: evenodd;
+    }
+}
+
+@each $selector, $path in repath.$pathpairs {
+    #{$selector} path {
+        d: path($path);
+        fill-rule: evenodd;
+    }
+}
+
+@each $selector, $path in unpath.$pathpairs {
+    #{$selector} {
+        d: path($path);
+    }
+}

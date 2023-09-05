@@ -1,0 +1,17 @@
+// Icons
+
+@use "./channel";
+@use "./device";
+
+@each $oldpath, $newpath in channel.$pathpairs {
+    .icon-2W8DHg path[d^="#{$oldpath}"] {
+        d: path($newpath);
+        fill-rule: evenodd;
+    }
+}
+
+@each $oldpath, $newpath in device.$pathpairs {
+    .sessionIcon-2fwSzb path[d^="#{$oldpath}"] {
+        d: path($newpath);
+    }
+}

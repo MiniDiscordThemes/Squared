@@ -1,0 +1,16 @@
+// Button icons
+
+@use "./text";
+@use "./toolbar";
+
+@each $oldpath, $newpath in text.$pathpairs {
+    .channelTextArea-1FufC0 path[d^="#{$oldpath}"] {
+        d: path($newpath);
+    }
+}
+
+@each $selector, $path in toolbar.$pathpairs {
+    #{$selector} .icon-2xnN2Y path {
+        d: path($path);
+    }
+}
