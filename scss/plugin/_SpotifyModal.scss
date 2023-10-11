@@ -1,9 +1,11 @@
 // Replugged https://github.com/Socketlike/SpotifyModal
-#spotify-modal > .header > .cover-art,
-#spotify-modal > .dock > .seek-bar,
-#spotify-modal > .dock > .seek-bar > .inner,
-#spotify-modal > .dock > .controls > svg {
-    border-radius: 0;
+#spotify-modal {
+    .cover-art,
+    .seekbar .inner,
+    .seekbar .inner div,
+    .controls-container .icon {
+        border-radius: 0;
+    }
 }
 
 // Vencord

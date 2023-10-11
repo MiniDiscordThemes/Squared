@@ -10,6 +10,12 @@
       "options": {
         "tabWidth": 2
       }
+    },
+    {
+      "files": "**/path/**/_!(index).scss",
+      "options": {
+        "printWidth": 40
+      }
     }
   ]
 }

@@ -13,27 +13,48 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout Git repository
-        uses: "actions/checkout@v2"
-
-      - name: Set up Node.js
+      - name: Setup node
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - name: Install PNPM
+      - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: latest
 
-      - name: Install Node.js dependencies
-        run: pnpm install
-
-      - name: Build TypeScript and bundle into asar
-        run: pnpm run rp
-
-      - uses: ncipollo/release-action@v1
+      - name: Checkout theme
+        uses: actions/checkout@v2
         with:
-          artifacts: "bundle/*, *.theme.css"
+          path: theme
+
+      - name: Checkout Replugged
+        uses: actions/checkout@v2
+        with:
+          repository: replugged-org/replugged
+          path: replugged
+          ref: v4.7.0
+
+      - name: Link Replugged into theme
+        run: |
+          cd theme
+          pnpm link ../replugged
+
+      - name: Build and bundle Replugged
+        run: |
+          cd replugged
+          pnpm install
+          pnpm run bundle
+
+      - name: Build and bundle theme into .asar
+        run: |
+          cd theme
+          pnpm install
+          pnpm run rp:all
+
+      - name: Release theme .asar and .json
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: theme/bundle/*
           makeLatest: true
           generateReleaseNotes: true

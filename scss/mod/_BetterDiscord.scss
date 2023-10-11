@@ -1,7 +1,7 @@
 @use "../top/long";
 
-$_selectors:
-    [ ".bd-addon-error-icon",
+$_selectors: (
+    ".bd-addon-error-icon",
     ".bd-addon-error",
     ".bd-addon-list .bd-addon-card",
     ".bd-button",
@@ -30,6 +30,7 @@ $_selectors:
     ".bd-tab-item",
     ".bd-toast",
     ".bd-editor-controls button",
-    ".bd-pub-button"];
+    ".bd-pub-button"
+);
 
 @include long.groupSelectors($_selectors, 10);
