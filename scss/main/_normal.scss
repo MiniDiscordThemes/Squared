@@ -1,7 +1,7 @@
 @use "../top/long";
 
-$_selectors:
-    [ ".accountAddInner-2y9WLL",
+$_selectors: (
+    ".accountAddInner-2y9WLL",
     ".accountList-Wii_T5",
     ".accountProfileCard-lbN7n-",
     ".action-2YPPom",
@@ -882,6 +882,7 @@ $_selectors:
     ".ytp-title-channel",
     ".ytp-tooltip-image",
     ".ytp-tooltip-text",
-    ".ytp-tooltip-text-wrapper"];
+    ".ytp-tooltip-text-wrapper"
+);
 
 @include long.groupSelectors($_selectors, 10);

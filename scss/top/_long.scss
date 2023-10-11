@@ -19,12 +19,11 @@
 @mixin groupSelectors($long-selector-list, $length: 10) {
     $group: [];
     @each $selector in $long-selector-list {
-        @if list.length($group) < $length {
-            $group: list.append($group, $selector);
-        } @else {
+        @if list.length($group) == $length {
             @include _generateBlock($group);
             $group: [];
         }
+        $group: list.append($group, $selector);
     }
     @include _generateBlock($group);
 }

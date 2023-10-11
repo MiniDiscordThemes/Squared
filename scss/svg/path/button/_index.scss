@@ -1,0 +1,31 @@
+// Button icons
+
+@use "sass:string";
+
+@use "./text";
+@use "./toolbar";
+@use "./userpanel";
+
+@each $oldpath, $newpath in text.$pathpairs {
+    .channelTextArea-1FufC0 path[d^="#{$oldpath}"] {
+        d: path($newpath);
+    }
+}
+
+@each $oldpath, $newpath in toolbar.$pathpairs {
+    .toolbar-3_r2xA path[d^="#{string.slice($oldpath, 1, 20)}"] {
+        d: path($newpath);
+    }
+}
+
+@each $selector, $path in toolbar.$selectpathpairs {
+    #{$selector} .icon-2xnN2Y path {
+        d: path($path);
+    }
+}
+
+@each $oldpath, $newpath in userpanel.$pairpaths {
+    .container-YkUktl path[d^="#{string.slice($oldpath, 1, 20)}"] {
+        d: path($newpath);
+    }
+}
