@@ -50,7 +50,7 @@ jobs:
         run: |
           cd theme
           pnpm install
-          pnpm run rp:all
+          pnpm run rp
 
       - name: Release theme .asar and .json
         uses: ncipollo/release-action@v1
