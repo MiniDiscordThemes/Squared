@@ -17,9 +17,8 @@
     "release": "replugged release"
   },
   "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "prettier": "^3.0.3",
-    "replugged": "^4.7.0",
     "salt-bd-scss": "^1.1.0"
   }
 }
