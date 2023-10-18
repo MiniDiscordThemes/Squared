@@ -7,7 +7,7 @@
 @use "./userpanel";
 
 @each $oldpath, $newpath in text.$pathpairs {
-    .channelTextArea-1FufC0 path[d^="#{$oldpath}"] {
+    :is(.channelTextArea-1FufC0, .channelTextArea-1deLlK) path[d^="#{$oldpath}"] {
         d: path($newpath);
     }
 }
@@ -25,7 +25,7 @@
 }
 
 @each $oldpath, $newpath in userpanel.$pairpaths {
-    .container-YkUktl path[d^="#{string.slice($oldpath, 1, 20)}"] {
+    :is(.container-YkUktl, .container-1CH86i) path[d^="#{string.slice($oldpath, 1, 20)}"] {
         d: path($newpath);
     }
 }
