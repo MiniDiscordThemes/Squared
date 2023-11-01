@@ -5,16 +5,16 @@
 
 @each $oldpath, $newpath in channel.$pathpairs {
     // Channel list
-    .icon-2W8DHg path[d^="#{$oldpath}"],
+    .icon_eff5d4 path[d^="#{$oldpath}"],
     // Header
-    .children-3xh0VB path[d^="#{$oldpath}"] {
+    .children__32014 path[d^="#{$oldpath}"] {
         d: path($newpath);
         fill-rule: evenodd;
     }
 }
 
 @each $oldpath, $newpath in device.$pathpairs {
-    .sessionIcon-2fwSzb path[d^="#{$oldpath}"] {
+    .sessionIcon__540be path[d^="#{$oldpath}"] {
         d: path($newpath);
     }
 }
