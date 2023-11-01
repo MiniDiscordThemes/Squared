@@ -1,9 +1,10 @@
-name: Build and deploy CSS for BetterDiscord
+name: "Build and deploy CSS for BetterDiscord"
 
 on:
   push:
     branches:
       - main
+      - master
 
 jobs:
   build:
@@ -28,11 +29,11 @@ jobs:
         run: pnpm install
 
       - name: Build CSS
-        run: pnpm run bd
+        run: pnpm run build:bd
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: deploy
-          publish_dir: ./
+          publish_dir: "./"

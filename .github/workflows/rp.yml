@@ -13,6 +13,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout theme
+        uses: actions/checkout@v2
+
       - name: Setup node
         uses: actions/setup-node@v3
         with:
@@ -23,38 +26,15 @@ jobs:
         with:
           version: latest
 
-      - name: Checkout theme
-        uses: actions/checkout@v2
-        with:
-          path: theme
-
-      - name: Checkout Replugged
-        uses: actions/checkout@v2
-        with:
-          repository: replugged-org/replugged
-          path: replugged
-          ref: v4.7.0
-
-      - name: Link Replugged into theme
-        run: |
-          cd theme
-          pnpm link ../replugged
-
-      - name: Build and bundle Replugged
-        run: |
-          cd replugged
-          pnpm install
-          pnpm run bundle
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Build and bundle theme into .asar
-        run: |
-          cd theme
-          pnpm install
-          pnpm run rp
+        run: pnpm run build:rp
 
-      - name: Release theme .asar and .json
+      - name: Release bundled asar, json, and theme.css
         uses: ncipollo/release-action@v1
         with:
-          artifacts: theme/bundle/*
+          artifacts: "bundle/*, *.theme.css"
           makeLatest: true
           generateReleaseNotes: true
