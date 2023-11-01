@@ -1,24 +1,25 @@
 {
   "name": "squared-discord-theme",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "A theme to square all circles in Discord.",
   "repository": "github:MiniDiscordThemes/Squared",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "bd-scss dev",
+    "dev:bd": "bd-scss dev",
     "dev:rp": "replugged build theme --watch",
     "dev:vc": "bd-scss dev:vc",
-    "bd": "bd-scss build",
-    "rp": "replugged bundle theme",
+    "build:bd": "bd-scss build",
+    "build:rp": "replugged bundle theme",
     "lint": "prettier ./scss --check",
     "lint:fix": "prettier ./scss --write --log-level warn",
     "release": "replugged release"
   },
-  "type": "module",
   "devDependencies": {
     "prettier": "^3.0.3",
+    "replugged": "^4.7.4",
     "salt-bd-scss": "^1.1.0"
   }
 }
