@@ -1,4 +1,4 @@
-name: "Build and deploy CSS for BetterDiscord"
+name: Build and deploy CSS for BetterDiscord
 
 on:
   push:
