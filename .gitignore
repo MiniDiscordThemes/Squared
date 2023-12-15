@@ -8,3 +8,6 @@
 
 # Social images
 /preview
+
+# Krita temp files
+*.kra~
