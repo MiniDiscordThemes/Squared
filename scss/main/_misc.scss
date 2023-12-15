@@ -5,12 +5,12 @@
 
 // Emoji picker
 .sprite__294b3 {
-    &.inactive_c5f2cb {
-        background-image: url("https://minidiscordthemes.github.io/Squared/img/emoji-square.avif");
+    &.spriteColored_b1c6ab {
+        background-image: url("https://minidiscordthemes.github.io/Squared/img/emoji-color.avif");
     }
-    &.active__6a892 {
-        -webkit-mask-image: url("https://minidiscordthemes.github.io/Squared/img/active-square.avif");
-        mask-image: url("https://minidiscordthemes.github.io/Squared/img/active-square.avif");
+    &.spriteGreyscale__7b70f {
+        -webkit-mask-image: url("https://minidiscordthemes.github.io/Squared/img/emoji-greyscale.avif");
+        mask-image: url("https://minidiscordthemes.github.io/Squared/img/emoji-greyscale.avif");
     }
 }
 
