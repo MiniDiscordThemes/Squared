@@ -5,7 +5,13 @@
 
 // Emoji picker
 .sprite__294b3 {
-    background-image: url("https://minidiscordthemes.github.io/Squared/img/emoji-square.png");
+    &.inactive_c5f2cb {
+        background-image: url("https://minidiscordthemes.github.io/Squared/img/emoji-square.avif");
+    }
+    &.active__6a892 {
+        -webkit-mask-image: url("https://minidiscordthemes.github.io/Squared/img/active-square.avif");
+        mask-image: url("https://minidiscordthemes.github.io/Squared/img/active-square.avif");
+    }
 }
 
 // Authorised apps permissions check
