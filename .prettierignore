@@ -9,6 +9,7 @@
 *.md
 *.min.css
 *.theme.css
+*~
 
 # Files
 LICENSE

@@ -7,7 +7,7 @@
     "discordID": "134142022092062720",
     "github": "Saltssaumure"
   },
-  "version": "1.6.1",
+  "version": "1.6.2",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.Squared"
@@ -17,7 +17,7 @@
   "main": "scss/sq.scss",
   "source": "https://github.com/MiniDiscordThemes/Squared",
   "image": [
-    "https://cdn.discordapp.com/attachments/946226984005025835/1129622992649986048/squared1.png",
-    "https://cdn.discordapp.com/attachments/946226984005025835/1129622992922624121/squared2.png"
+    "https://minidiscordthemes.github.io/Squared/preview/main.avif",
+    "https://minidiscordthemes.github.io/Squared/preview/settings.avif"
   ]
 }
