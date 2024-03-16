@@ -1,13 +1,16 @@
 // Scrollbars
 
 :is(
+        .auto__7597f,
         .auto__76cc7,
         .auto_a48086,
+        .previewTextArea_ef8120,
         .scrollbarDefault_fec5d4,
         .scrollbarGhost__6f715,
         .scrollbarGhostHairline_c9a45f,
         .thin__62e51,
-        .thin_b1c063
+        .thin_b1c063,
+        .webkit__8d35a
     ) {
     &::-webkit-scrollbar-thumb,
     &::-webkit-scrollbar-track {
