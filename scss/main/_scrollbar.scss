@@ -1,9 +1,16 @@
 // Scrollbars
 
-.scrollbarGhost__6f715::-webkit-scrollbar-thumb,
-.scrollbarGhost__6f715::-webkit-scrollbar-track,
-.scrollerBase_dc3aa9::-webkit-scrollbar-thumb,
-.scrollerBase_dc3aa9::-webkit-scrollbar-track,
-.webkit__8d35a::-webkit-scrollbar-thumb {
-    border-radius: 0;
+:is(
+        .auto__76cc7,
+        .auto_a48086,
+        .scrollbarDefault_fec5d4,
+        .scrollbarGhost__6f715,
+        .scrollbarGhostHairline_c9a45f,
+        .thin__62e51,
+        .thin_b1c063
+    ) {
+    &::-webkit-scrollbar-thumb,
+    &::-webkit-scrollbar-track {
+        border-radius: 0;
+    }
 }
