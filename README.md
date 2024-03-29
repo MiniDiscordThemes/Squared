@@ -1,5 +1,5 @@
-[screenshot1]:      https://cdn.discordapp.com/attachments/946226984005025835/1129622992649986048/squared1.png
-[screenshot2]:      https://cdn.discordapp.com/attachments/946226984005025835/1129622992922624121/squared2.png
+[screenshot1]:      https://minidiscordthemes.github.io/Squared/preview/main.avif
+[screenshot2]:      https://minidiscordthemes.github.io/Squared/preview/settings.avif
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [discord]:          https://discord.gg/uy8nKQVatp
