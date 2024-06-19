@@ -7,25 +7,25 @@
 @use "./userpanel";
 
 @each $oldpath, $newpath in text.$pathpairs {
-    .channelTextArea_c2094b path[d^="#{$oldpath}"] {
+    .channelTextArea_a7d72e path[d^="#{$oldpath}"] {
         d: path($newpath);
     }
 }
 
 @each $oldpath, $newpath in toolbar.$pathpairs {
-    .toolbar__62fb5 path[d^="#{string.slice($oldpath, 1, 20)}"] {
+    .toolbar_e44302 path[d^="#{string.slice($oldpath, 1, 20)}"] {
         d: path($newpath);
     }
 }
 
 @each $selector, $path in toolbar.$selectpathpairs {
-    #{$selector} .icon_ae0b42 path {
+    #{$selector} .icon_e44302 path {
         d: path($path);
     }
 }
 
 @each $oldpath, $newpath in userpanel.$pairpaths {
-    .container_debb33 path[d^="#{string.slice($oldpath, 1, 20)}"] {
+    .container_b2ca13 path[d^="#{string.slice($oldpath, 1, 20)}"] {
         d: path($newpath);
     }
 }
