@@ -4,17 +4,17 @@
 @use "./device";
 
 @each $oldpath, $newpath in channel.$pathpairs {
-    // Channel list
-    .icon_d8bfb3 path[d^="#{$oldpath}"],
+	// Channel list
+	.icon_d8bfb3 path[d^="#{$oldpath}"],
     // Header
     .children_e44302 path[d^="#{$oldpath}"] {
-        d: path($newpath);
-        fill-rule: evenodd;
-    }
+		d: path($newpath);
+		fill-rule: evenodd;
+	}
 }
 
 @each $oldpath, $newpath in device.$pathpairs {
-    .sessionIcon_c7a2c0 path[d^="#{$oldpath}"] {
-        d: path($newpath);
-    }
+	.sessionIcon_c7a2c0 path[d^="#{$oldpath}"] {
+		d: path($newpath);
+	}
 }

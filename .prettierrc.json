@@ -1,21 +1,21 @@
 {
-  "useTabs": false,
-  "singleQuote": false,
-  "printWidth": 140,
-  "tabWidth": 4,
-  "trailingComma": "none",
-  "overrides": [
-    {
-      "files": "*.json",
-      "options": {
-        "tabWidth": 2
-      }
-    },
-    {
-      "files": "**/path/**/_!(index).scss",
-      "options": {
-        "printWidth": 40
-      }
-    }
-  ]
+	"useTabs": true,
+	"singleQuote": false,
+	"printWidth": 140,
+	"tabWidth": 4,
+	"trailingComma": "none",
+	"overrides": [
+		{
+			"files": "*.yml",
+			"options": {
+				"tabWidth": 2
+			}
+		},
+		{
+			"files": "**/path/**/_!(index).scss",
+			"options": {
+				"printWidth": 40
+			}
+		}
+	]
 }

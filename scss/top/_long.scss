@@ -2,28 +2,28 @@
 @use "sass:string";
 
 @function _listToString($list) {
-    $str: "";
-    @each $el in $list {
-        $str: $str + $el + ",";
-    }
-    @return $str;
+	$str: "";
+	@each $el in $list {
+		$str: $str + $el + ",";
+	}
+	@return $str;
 }
 
 @mixin _generateBlock($selector-list) {
-    $selector-string: _listToString($selector-list);
-    #{$selector-string} {
-        border-radius: 0;
-    }
+	$selector-string: _listToString($selector-list);
+	#{$selector-string} {
+		border-radius: 0;
+	}
 }
 
 @mixin groupSelectors($long-selector-list, $length: 10) {
-    $group: [];
-    @each $selector in $long-selector-list {
-        @if list.length($group) == $length {
-            @include _generateBlock($group);
-            $group: [];
-        }
-        $group: list.append($group, $selector);
-    }
-    @include _generateBlock($group);
+	$group: [];
+	@each $selector in $long-selector-list {
+		@if list.length($group) == $length {
+			@include _generateBlock($group);
+			$group: [];
+		}
+		$group: list.append($group, $selector);
+	}
+	@include _generateBlock($group);
 }

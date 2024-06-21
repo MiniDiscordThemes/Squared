@@ -6,27 +6,27 @@
 @use "./unpath";
 
 @each $selector, $path in discord.$selectorpathpairs {
-    #{$selector} path {
-        d: path($path);
-    }
+	#{$selector} path {
+		d: path($path);
+	}
 }
 
 @each $oldpath, $newpath in discoverycheck.$pathpairs {
-    .checklistIcon_bd2368 path[d^="#{$oldpath}"] {
-        d: path($newpath);
-        fill-rule: evenodd;
-    }
+	.checklistIcon_bd2368 path[d^="#{$oldpath}"] {
+		d: path($newpath);
+		fill-rule: evenodd;
+	}
 }
 
 @each $selector, $path in repath.$pathpairs {
-    #{$selector} path {
-        d: path($path);
-        fill-rule: evenodd;
-    }
+	#{$selector} path {
+		d: path($path);
+		fill-rule: evenodd;
+	}
 }
 
 @each $selector, $path in unpath.$pathpairs {
-    #{$selector} {
-        d: path($path);
-    }
+	#{$selector} {
+		d: path($path);
+	}
 }

@@ -1,23 +1,23 @@
 {
-  "id": "net.saltssaumure.Squared",
-  "name": "Squared",
-  "description": "Squares all circles in Discord.",
-  "author": {
-    "name": "Saltssaumure",
-    "discordID": "134142022092062720",
-    "github": "Saltssaumure"
-  },
-  "version": "1.7.6",
-  "updater": {
-    "type": "store",
-    "id": "net.saltssaumure.Squared"
-  },
-  "license": "MIT",
-  "type": "replugged-theme",
-  "main": "scss/sq.scss",
-  "source": "https://github.com/MiniDiscordThemes/Squared",
-  "image": [
-    "https://minidiscordthemes.github.io/Squared/preview/main.avif",
-    "https://minidiscordthemes.github.io/Squared/preview/settings.avif"
-  ]
+	"id": "net.saltssaumure.Squared",
+	"name": "Squared",
+	"description": "Squares all circles in Discord.",
+	"author": {
+		"name": "Saltssaumure",
+		"discordID": "134142022092062720",
+		"github": "Saltssaumure"
+	},
+	"version": "1.7.6",
+	"updater": {
+		"type": "store",
+		"id": "net.saltssaumure.Squared"
+	},
+	"license": "MIT",
+	"type": "replugged-theme",
+	"main": "scss/sq.scss",
+	"source": "https://github.com/MiniDiscordThemes/Squared",
+	"image": [
+		"https://minidiscordthemes.github.io/Squared/preview/main.avif",
+		"https://minidiscordthemes.github.io/Squared/preview/settings.avif"
+	]
 }

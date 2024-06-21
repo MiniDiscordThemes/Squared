@@ -2,35 +2,35 @@
 // https://github.com/samfundev/BetterDiscordStuff/blob/master/Plugins/ChannelTabs/ChannelTabs.plugin.js
 
 .channelTabs-favContainer .channelTabs-fav {
-    border-radius: 0;
+	border-radius: 0;
 
-    :is(.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favIcon) {
-        border-radius: 0;
-    }
+	:is(.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favIcon) {
+		border-radius: 0;
+	}
 }
 
 .channelTabs-tabContainer {
-    .channelTabs-tab {
-        border-radius: 0;
+	.channelTabs-tab {
+		border-radius: 0;
 
-        :is(.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-tabIcon) {
-            border-radius: 0;
-        }
-    }
+		:is(.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-tabIcon) {
+			border-radius: 0;
+		}
+	}
 
-    :is(.channelTabs-newTab, .channelTabs-closeTab, .channelTabs-tabNav > div) {
-        border-radius: 0;
-    }
+	:is(.channelTabs-newTab, .channelTabs-closeTab, .channelTabs-tabNav > div) {
+		border-radius: 0;
+	}
 }
 
 :is(.channelTabs-tabContainer .channelTabs-tabIconWrapper, .channelTabs-favContainer .channelTabs-favIconWrapper) {
-    img[src*="com/avatars/"] {
-        clip-path: inset(2px);
-    }
+	img[src*="com/avatars/"] {
+		clip-path: inset(2px);
+	}
 
-    rect {
-        rx: 0;
-        ry: 0;
-        stroke-width: 1px;
-    }
+	rect {
+		rx: 0;
+		ry: 0;
+		stroke-width: 1px;
+	}
 }
