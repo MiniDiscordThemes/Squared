@@ -1,31 +1,31 @@
 $r: (
-    ".radioIconForeground-2BMavi",
-    // Radio options
-    ".bar_a4fd01",
-    // Sticker slot boost tier
+	".radioIconForeground-2BMavi",
+	// Radio options
+	".bar_a4fd01",
+	// Sticker slot boost tier
 );
 
 $rx: (
-    ".slider_cebd1c rect",
-    // Toggle slider
-    ".bd-switch-handle",
-    // BD toggle slider
-    ".container-yn4cwV rect",
-    // Stage moderator badge
-    ".noItemsIcon_a206c7 rect",
-    // Subscriptions no items icon
-    ".noItemsIcon_e70817 rect",
-    // Subscriptions no items icon
+	".slider_cebd1c rect",
+	// Toggle slider
+	".bd-switch-handle",
+	// BD toggle slider
+	".container-yn4cwV rect",
+	// Stage moderator badge
+	".noItemsIcon_a206c7 rect",
+	// Subscriptions no items icon
+	".noItemsIcon_e70817 rect",
+	// Subscriptions no items icon
 );
 
 @each $selector in $r {
-    #{$selector} {
-        r: 0;
-    }
+	#{$selector} {
+		r: 0;
+	}
 }
 
 @each $selector in $rx {
-    #{$selector} {
-        rx: 0;
-    }
+	#{$selector} {
+		rx: 0;
+	}
 }

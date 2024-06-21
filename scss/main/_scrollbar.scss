@@ -1,19 +1,19 @@
 // Scrollbars
 
 :is(
-        .auto_ad8998,
-        .auto_c49869,
-        .auto_eed6a8,
-        .previewTextArea_c1668f,
-        .scrollbarDefault_c858ce,
-        .scrollbarGhost_c858ce,
-        .scrollbarGhostHairline_c858ce,
-        .thin_c49869,
-        .thin_eed6a8,
-        .webkit__8d35a
-    ) {
-    &::-webkit-scrollbar-thumb,
-    &::-webkit-scrollbar-track {
-        border-radius: 0;
-    }
+		.auto_ad8998,
+		.auto_c49869,
+		.auto_eed6a8,
+		.previewTextArea_c1668f,
+		.scrollbarDefault_c858ce,
+		.scrollbarGhost_c858ce,
+		.scrollbarGhostHairline_c858ce,
+		.thin_c49869,
+		.thin_eed6a8,
+		.webkit__8d35a
+	) {
+	&::-webkit-scrollbar-thumb,
+	&::-webkit-scrollbar-track {
+		border-radius: 0;
+	}
 }
