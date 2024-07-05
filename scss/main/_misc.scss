@@ -20,22 +20,6 @@
 	background-image: url("data:image/svg+xml,%3Csvg height='18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3Cpath d='M 14 14 h -10 v -10 h 8 v -2 h -10 v 14 h 14 v -7.75 h -2 z m -7.5675 -6.94 l -1.0575 1.065 l 3.375 3.375 l 7.5 -7.5 l -1.0575 -1.065 l -6.4425 6.4425 z' fill='%233ba55c'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-// Privacy and safety radio inner circle
-.item_eb92a8[tabindex="0"] > .radioBar_eb92a8 > div:first-child {
-	position: relative;
-
-	&::before {
-		content: "";
-		display: block;
-		position: absolute;
-		background: currentColor;
-		width: 12px;
-		height: 12px;
-		left: 6px;
-		top: 6px;
-	}
-}
-
 // Appearance selected theme inner circle
 .checkmarkCircle_cb7c27 {
 	circle {
