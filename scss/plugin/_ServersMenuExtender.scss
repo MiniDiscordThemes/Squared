@@ -4,5 +4,5 @@
 #searchWrapper,
 .ownButton,
 .downBlock > div {
-	border-radius: 0 !important;
+	border-radius: var(--squared-radius) !important;
 }

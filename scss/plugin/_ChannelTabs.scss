@@ -2,24 +2,24 @@
 // https://github.com/samfundev/BetterDiscordStuff/blob/master/Plugins/ChannelTabs/ChannelTabs.plugin.js
 
 .channelTabs-favContainer .channelTabs-fav {
-	border-radius: 0;
+	border-radius: var(--squared-radius);
 
 	:is(.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-favIcon) {
-		border-radius: 0;
+		border-radius: var(--squared-radius);
 	}
 }
 
 .channelTabs-tabContainer {
 	.channelTabs-tab {
-		border-radius: 0;
+		border-radius: var(--squared-radius);
 
 		:is(.channelTabs-mentionBadge, .channelTabs-unreadBadge, .channelTabs-tabIcon) {
-			border-radius: 0;
+			border-radius: var(--squared-radius);
 		}
 	}
 
 	:is(.channelTabs-newTab, .channelTabs-closeTab, .channelTabs-tabNav > div) {
-		border-radius: 0;
+		border-radius: var(--squared-radius);
 	}
 }
 

@@ -4,7 +4,6 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 // RadialStatus configuration
-
 :root {
 	--rs-small-spacing: 0px; // Gap between avatar and status for members list/dms | MUST end in px
 	--rs-medium-spacing: 0px; // Gap between avatar and status for User popout | MUST end in px
@@ -12,7 +11,7 @@
 	--rs-small-width: 2px; // Thickness of status border for members list/dms | MUST end in px
 	--rs-medium-width: 3px; // Thickness of status border for User popout | MUST end in px
 	--rs-large-width: 4px; // Thickness of status border for User profile | MUST end in px
-	--rs-avatar-shape: 0%; // 50% for round - 0% for square
+	--rs-avatar-shape: var(--squared-radius); // 50% for round - 0% for square
 	--rs-online-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); // Colour for online status
 	--rs-idle-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%); // Colour for idle status
 	--rs-dnd-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); // Colour for dnd status
