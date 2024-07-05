@@ -3,6 +3,7 @@
 .avatarDecorationHint_f89da9,
 .hue_a50813 > div > div > div > div,
 .liveIndicator_c5881c,
-.qrCode_cffc8d {
-	border-radius: 0 !important;
+.qrCode_cffc8d,
+.wrapper_efa999 {
+	border-radius: var(--squared-radius) !important;
 }

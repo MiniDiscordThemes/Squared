@@ -2,7 +2,7 @@
 // https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/Translator/
 
 div[style="background-color: var(--bdfdb-blurple); border-radius: 3px;"] {
-	border-radius: 0 !important;
+	border-radius: var(--squared-radius) !important;
 }
 
 path[d^="M 4 2 C 2.9005593 2 2 2.9005593 2 4"] {

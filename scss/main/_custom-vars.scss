@@ -1,0 +1,7 @@
+// Custom properties
+
+@property --squared-radius {
+	syntax: "<length>";
+	inherits: true;
+	initial-value: 0;
+}

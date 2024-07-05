@@ -20,12 +20,12 @@ $rx: (
 
 @each $selector in $r {
 	#{$selector} {
-		r: 0;
+		r: var(--squared-radius);
 	}
 }
 
 @each $selector in $rx {
 	#{$selector} {
-		rx: 0;
+		rx: var(--squared-radius);
 	}
 }

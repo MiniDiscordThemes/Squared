@@ -1,13 +1,13 @@
 {
   "id": "net.saltssaumure.Squared",
   "name": "Squared",
-  "description": "Squares all circles in Discord.",
+  "description": "Squares all circles in Discord with adjustable corner roundness. See GitHub for customisation details.",
   "author": {
     "name": "Saltssaumure",
     "discordID": "134142022092062720",
     "github": "Saltssaumure"
   },
-  "version": "1.7.8",
+  "version": "1.8.0",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.Squared"

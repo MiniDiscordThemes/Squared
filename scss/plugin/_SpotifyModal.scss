@@ -4,12 +4,12 @@
 	.seekbar .inner,
 	.seekbar .inner div,
 	.controls-container .icon {
-		border-radius: 0;
+		border-radius: var(--squared-radius);
 	}
 }
 
 // Vencord
 #vc-spotify-album-image,
 .vc-spotify-button {
-	border-radius: 0;
+	border-radius: var(--squared-radius);
 }

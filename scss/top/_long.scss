@@ -12,7 +12,7 @@
 @mixin _generateBlock($selector-list) {
 	$selector-string: _listToString($selector-list);
 	#{$selector-string} {
-		border-radius: 0;
+		border-radius: var(--squared-radius);
 	}
 }
 

@@ -3,7 +3,7 @@
 
 .it-switch-item,
 .it-switch-dot {
-	border-radius: 0;
+	border-radius: var(--squared-radius);
 }
 
 .channelTextArea_a7d72e path[d^="M528 448"] {

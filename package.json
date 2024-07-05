@@ -1,7 +1,7 @@
 {
   "name": "squared-discord-theme",
-  "version": "1.7.8",
-  "description": "A theme to square all circles in Discord.",
+  "version": "1.8.0",
+  "description": "Squares all circles in Discord with adjustable corner roundness.",
   "repository": "github:MiniDiscordThemes/Squared",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "MIT",

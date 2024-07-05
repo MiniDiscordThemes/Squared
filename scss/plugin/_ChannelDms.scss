@@ -2,5 +2,5 @@
 // https://github.com/Strencher/BetterDiscordStuff/blob/master/ChannelDms/ChannelDms.plugin.js
 
 .ChannelDms-channelpopout-popout .ChannelDms-channelpopout-collapseButton {
-	border-radius: 0 !important;
+	border-radius: var(--squared-radius) !important;
 }

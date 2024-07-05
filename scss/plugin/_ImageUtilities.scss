@@ -2,10 +2,10 @@
 // https://github.com/mwittrien/BetterDiscordAddons/blob/master/Plugins/ImageUtilities/ImageUtilities.plugin.js
 
 .imageDetailsAdded-sda9Fa .imageWrapper__178ee {
-	border-radius: 0 !important;
+	border-radius: var(--squared-radius) !important;
 }
 
 .switchIcon-QY6cR4,
 .nav-3QIE8_ {
-	border-radius: 0;
+	border-radius: var(--squared-radius);
 }

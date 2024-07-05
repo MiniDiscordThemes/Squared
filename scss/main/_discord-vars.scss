@@ -1,11 +1,11 @@
 // Discord's new variables
 
 :root {
-	--radius-xs: 0;
-	--radius-sm: 0;
-	--radius-md: 0;
-	--radius-lg: 0;
-	--radius-xl: 0;
-	--radius-xxl: 0;
-	--radius-round: 0;
+	--radius-xs: var(--squared-radius);
+	--radius-sm: var(--squared-radius);
+	--radius-md: var(--squared-radius);
+	--radius-lg: var(--squared-radius);
+	--radius-xl: var(--squared-radius);
+	--radius-xxl: var(--squared-radius);
+	--radius-round: var(--squared-radius);
 }
