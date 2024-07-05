@@ -1,5 +1,9 @@
 .activitySectionAssets_cd82a7 .largeImageMask_cd82a7,
+.assetsLargeMaskActivityFeed_d5089b,
 .assetsLargeMaskBiteSizePopout_d5089b,
+.assetsLargeMaskProfile_d5089b,
+.assetsLargeMaskProfileV2_d5089b,
+.assetsLargeMaskSimplifiedProfile_d5089b,
 .assetsLargeMaskStreamPreview_d5089b,
 .assetsLargeMaskUserPopout_d5089b,
 .assetsLargeMaskUserPopoutV2_d5089b,
@@ -9,9 +13,11 @@
 .inspectedIndicator_a708c4,
 .loadingIndicator_cb3343,
 .partyMember_b448f2,
+.partyMember_f07d2f,
 .voiceSectionGuildImage_cd82a7,
 .voiceSectionNoGuildImageWrapper_cd82a7,
 foreignObject[mask*="url(#"] {
 	mask: none;
 	-webkit-mask: none;
+	border-radius: var(--squared-radius);
 }
